@@ -88,4 +88,4 @@ All runs are logged to the MLflow experiment `congress-speech` (`mlflow.withinno
 
 ## Change log
 
-(none yet)
+- **2026-11-05, before any classifier was trained or any accuracy computed (clarification of §3).** Non-voting delegates and the resident commissioner (DC, Puerto Rico, Guam, the Virgin Islands, American Samoa, the Northern Mariana Islands) are excluded from every Congress. §3 kept them, but the Voteview file lists them only in Congresses in which they could vote in the Committee of the Whole (for example not in the 114th), so under the party rule of §2 they would have been included in some Congresses and not others. Excluding them everywhere keeps the set of eligible speakers the same in kind across Congresses. In the 114th Congress this affects 291 of 40,019 turns of 50 or more words.
