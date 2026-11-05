@@ -46,7 +46,7 @@ def secret(name):
         return None
 
 token = secret("GITHUB_TOKEN")
-url = f"https://{{token + '@' if token else ''}}github.com/{REPO}.git"
+url = f"https://{{'kvenanzi:' + token + '@' if token else ''}}github.com/{REPO}.git"   # fine-grained PAT, Contents: read
 if not os.path.isdir("congress-speech"):
     subprocess.run(["git", "clone", "-q", url], check=True)
 else:
