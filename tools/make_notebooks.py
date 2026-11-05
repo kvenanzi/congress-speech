@@ -66,6 +66,12 @@ os.environ["MLFLOW_TRACKING_USERNAME"] = userdata.get("MLFLOW_USER")
 os.environ["MLFLOW_TRACKING_PASSWORD"] = userdata.get("MLFLOW_PASSWORD")
 os.environ["HF_TOKEN"] = userdata.get("HF_TOKEN")
 
+from huggingface_hub import whoami
+try:
+    print("Hugging Face user:", whoami(token=os.environ["HF_TOKEN"])["name"])
+except Exception as e:
+    raise SystemExit(f"HF_TOKEN is not a valid token ({type(e).__name__}); make a Write token and update the secret") from None
+
 import torch, transformers
 from congress_speech import tracking, finetune, stats
 mlflow = tracking.setup()
