@@ -1,0 +1,16 @@
+# Raw GovInfo pulls and intermediate tables are rebuilt by scripts/01-04;
+# the derived speech table is published as a Hugging Face dataset.
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Experiment tracking and model outputs
+mlruns/
+mlflow.db
+outputs/
+models/
+artifacts/
