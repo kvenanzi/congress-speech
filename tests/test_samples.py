@@ -66,3 +66,9 @@ def test_cluster_bootstrap_brackets_the_point_estimate():
     correct = rng.random(1000) < 0.7
     r = stats.accuracy_ci(correct, spk, b=500)
     assert r["lo"] < r["acc"] < r["hi"] and r["speakers"] == 50
+
+
+def test_party_mask_is_case_sensitive():
+    from congress_speech.finetune import mask_party_words
+    out = mask_party_words(pd.Series(["Republicans and the GOP met Democrats; a democratic process."]))[0]
+    assert out == "[PARTY] and the [PARTY] met [PARTY]; a democratic process."
