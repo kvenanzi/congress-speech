@@ -1,0 +1,991 @@
+{
+ "accuracy": {
+  "per_congress": [
+   {
+    "congress": 104,
+    "t_acc": 0.7335,
+    "t_lo": 0.7013,
+    "t_hi": 0.7647,
+    "b_acc": 0.7055,
+    "b_lo": 0.6733,
+    "b_hi": 0.7345,
+    "party_gap": 0.7455
+   },
+   {
+    "congress": 105,
+    "t_acc": 0.669,
+    "t_lo": 0.6392,
+    "t_hi": 0.6962,
+    "b_acc": 0.6565,
+    "b_lo": 0.6262,
+    "b_hi": 0.6858,
+    "party_gap": 0.7607
+   },
+   {
+    "congress": 106,
+    "t_acc": 0.693,
+    "t_lo": 0.6612,
+    "t_hi": 0.7236,
+    "b_acc": 0.6705,
+    "b_lo": 0.6338,
+    "b_hi": 0.7052,
+    "party_gap": 0.7587
+   },
+   {
+    "congress": 107,
+    "t_acc": 0.682,
+    "t_lo": 0.6478,
+    "t_hi": 0.7135,
+    "b_acc": 0.6745,
+    "b_lo": 0.6446,
+    "b_hi": 0.704,
+    "party_gap": 0.7643
+   },
+   {
+    "congress": 108,
+    "t_acc": 0.717,
+    "t_lo": 0.6795,
+    "t_hi": 0.7499,
+    "b_acc": 0.71,
+    "b_lo": 0.676,
+    "b_hi": 0.7432,
+    "party_gap": 0.7682
+   },
+   {
+    "congress": 109,
+    "t_acc": 0.7305,
+    "t_lo": 0.7027,
+    "t_hi": 0.7597,
+    "b_acc": 0.733,
+    "b_lo": 0.7038,
+    "b_hi": 0.7624,
+    "party_gap": 0.7869
+   },
+   {
+    "congress": 110,
+    "t_acc": 0.722,
+    "t_lo": 0.6883,
+    "t_hi": 0.7514,
+    "b_acc": 0.719,
+    "b_lo": 0.6823,
+    "b_hi": 0.7526,
+    "party_gap": 0.7854
+   },
+   {
+    "congress": 111,
+    "t_acc": 0.81,
+    "t_lo": 0.7801,
+    "t_hi": 0.838,
+    "b_acc": 0.7805,
+    "b_lo": 0.7472,
+    "b_hi": 0.8112,
+    "party_gap": 0.7877
+   },
+   {
+    "congress": 112,
+    "t_acc": 0.755,
+    "t_lo": 0.7208,
+    "t_hi": 0.7871,
+    "b_acc": 0.758,
+    "b_lo": 0.7263,
+    "b_hi": 0.7887,
+    "party_gap": 0.837
+   },
+   {
+    "congress": 113,
+    "t_acc": 0.7755,
+    "t_lo": 0.7393,
+    "t_hi": 0.8059,
+    "b_acc": 0.762,
+    "b_lo": 0.7282,
+    "b_hi": 0.7924,
+    "party_gap": 0.8524
+   },
+   {
+    "congress": 114,
+    "t_acc": 0.778,
+    "t_lo": 0.7469,
+    "t_hi": 0.8074,
+    "b_acc": 0.7645,
+    "b_lo": 0.7354,
+    "b_hi": 0.791,
+    "party_gap": 0.862
+   },
+   {
+    "congress": 115,
+    "t_acc": 0.8092,
+    "t_lo": 0.7841,
+    "t_hi": 0.8333,
+    "b_acc": 0.787,
+    "b_lo": 0.7547,
+    "b_hi": 0.8199,
+    "party_gap": 0.8652
+   },
+   {
+    "congress": 116,
+    "t_acc": 0.833,
+    "t_lo": 0.8067,
+    "t_hi": 0.8574,
+    "b_acc": 0.8015,
+    "b_lo": 0.772,
+    "b_hi": 0.826,
+    "party_gap": 0.8704
+   },
+   {
+    "congress": 117,
+    "t_acc": 0.823,
+    "t_lo": 0.7928,
+    "t_hi": 0.8514,
+    "b_acc": 0.8205,
+    "b_lo": 0.79,
+    "b_hi": 0.848,
+    "party_gap": 0.8785
+   },
+   {
+    "congress": 118,
+    "t_acc": 0.7815,
+    "t_lo": 0.7343,
+    "t_hi": 0.8235,
+    "b_acc": 0.7825,
+    "b_lo": 0.7348,
+    "b_hi": 0.8257,
+    "party_gap": 0.8956
+   },
+   {
+    "congress": 119,
+    "t_acc": 0.846,
+    "t_lo": 0.8188,
+    "t_hi": 0.875,
+    "b_acc": 0.818,
+    "b_lo": 0.7812,
+    "b_hi": 0.8545,
+    "party_gap": 0.9153
+   }
+  ]
+ },
+ "source": {
+  "rows": [
+   {
+    "congress": 104,
+    "govinfo": 0.7055,
+    "govinfo_lo": 0.6751,
+    "govinfo_hi": 0.7349,
+    "hein": 0.6905,
+    "hein_lo": 0.6583,
+    "hein_hi": 0.7222,
+    "mutually_within": true
+   },
+   {
+    "congress": 105,
+    "govinfo": 0.6565,
+    "govinfo_lo": 0.6275,
+    "govinfo_hi": 0.6876,
+    "hein": 0.678,
+    "hein_lo": 0.6441,
+    "hein_hi": 0.7094,
+    "mutually_within": true
+   },
+   {
+    "congress": 106,
+    "govinfo": 0.6705,
+    "govinfo_lo": 0.6359,
+    "govinfo_hi": 0.7042,
+    "hein": 0.657,
+    "hein_lo": 0.624,
+    "hein_hi": 0.6899,
+    "mutually_within": true
+   },
+   {
+    "congress": 107,
+    "govinfo": 0.6745,
+    "govinfo_lo": 0.6465,
+    "govinfo_hi": 0.7044,
+    "hein": 0.6625,
+    "hein_lo": 0.6325,
+    "hein_hi": 0.691,
+    "mutually_within": true
+   },
+   {
+    "congress": 108,
+    "govinfo": 0.71,
+    "govinfo_lo": 0.6769,
+    "govinfo_hi": 0.7433,
+    "hein": 0.6895,
+    "hein_lo": 0.6584,
+    "hein_hi": 0.7212,
+    "mutually_within": true
+   },
+   {
+    "congress": 109,
+    "govinfo": 0.733,
+    "govinfo_lo": 0.7038,
+    "govinfo_hi": 0.7614,
+    "hein": 0.725,
+    "hein_lo": 0.6992,
+    "hein_hi": 0.7494,
+    "mutually_within": true
+   },
+   {
+    "congress": 110,
+    "govinfo": 0.719,
+    "govinfo_lo": 0.6841,
+    "govinfo_hi": 0.7533,
+    "hein": 0.7405,
+    "hein_lo": 0.7138,
+    "hein_hi": 0.7665,
+    "mutually_within": true
+   },
+   {
+    "congress": 111,
+    "govinfo": 0.7805,
+    "govinfo_lo": 0.7483,
+    "govinfo_hi": 0.8104,
+    "hein": 0.7895,
+    "hein_lo": 0.756,
+    "hein_hi": 0.8202,
+    "mutually_within": true
+   },
+   {
+    "congress": 112,
+    "govinfo": 0.758,
+    "govinfo_lo": 0.7272,
+    "govinfo_hi": 0.7877,
+    "hein": 0.769,
+    "hein_lo": 0.736,
+    "hein_hi": 0.802,
+    "mutually_within": true
+   },
+   {
+    "congress": 113,
+    "govinfo": 0.762,
+    "govinfo_lo": 0.729,
+    "govinfo_hi": 0.7916,
+    "hein": 0.739,
+    "hein_lo": 0.7074,
+    "hein_hi": 0.7709,
+    "mutually_within": true
+   },
+   {
+    "congress": 114,
+    "govinfo": 0.7645,
+    "govinfo_lo": 0.7353,
+    "govinfo_hi": 0.7919,
+    "hein": 0.728,
+    "hein_lo": 0.6998,
+    "hein_hi": 0.7553,
+    "mutually_within": false
+   }
+  ]
+ },
+ "nominate": {},
+ "sweep": {
+  "n_trials": 15,
+  "best_val_acc": 0.7465,
+  "tied_trials": [
+   3,
+   4,
+   9,
+   11
+  ],
+  "worst_val_acc": 0.683,
+  "trials": [
+   {
+    "batch_size": 16,
+    "epochs": 1,
+    "lr": 2.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.041506,
+    "weight_decay": 0.027244,
+    "val_acc": 0.726,
+    "minutes": 5.022807,
+    "trial": 0
+   },
+   {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.006512,
+    "weight_decay": 0.054217,
+    "val_acc": 0.714,
+    "minutes": 4.503126,
+    "trial": 1
+   },
+   {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 2.9e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.036673,
+    "weight_decay": 0.093967,
+    "val_acc": 0.731,
+    "minutes": 7.257806,
+    "trial": 2
+   },
+   {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088,
+    "val_acc": 0.7465,
+    "minutes": 10.074399,
+    "trial": 3
+   },
+   {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 8e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.082723,
+    "weight_decay": 0.030356,
+    "val_acc": 0.7465,
+    "minutes": 16.47382,
+    "trial": 4
+   },
+   {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 1.9e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.039183,
+    "weight_decay": 0.006719,
+    "val_acc": 0.736,
+    "minutes": 16.469348,
+    "trial": 5
+   },
+   {
+    "batch_size": 16,
+    "epochs": 1,
+    "lr": 1.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.061712,
+    "weight_decay": 0.096705,
+    "val_acc": 0.7105,
+    "minutes": 5.031729,
+    "trial": 6
+   },
+   {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 8.4e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.022185,
+    "weight_decay": 0.083587,
+    "val_acc": 0.727,
+    "minutes": 7.260964,
+    "trial": 7
+   },
+   {
+    "batch_size": 32,
+    "epochs": 1,
+    "lr": 4.9e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.099992,
+    "weight_decay": 0.00945,
+    "val_acc": 0.683,
+    "minutes": 2.412994,
+    "trial": 8
+   },
+   {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 7.5e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.093056,
+    "weight_decay": 0.038273,
+    "val_acc": 0.7465,
+    "minutes": 16.468769,
+    "trial": 9
+   },
+   {
+    "batch_size": 32,
+    "epochs": 2,
+    "lr": 1.2e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.092664,
+    "weight_decay": 0.013626,
+    "val_acc": 0.698,
+    "minutes": 10.973166,
+    "trial": 10
+   },
+   {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 2.2e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.060035,
+    "weight_decay": 0.060421,
+    "val_acc": 0.7465,
+    "minutes": 10.06778,
+    "trial": 11
+   },
+   {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 5.5e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.053852,
+    "weight_decay": 0.049725,
+    "val_acc": 0.744,
+    "minutes": 16.470104,
+    "trial": 12
+   },
+   {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 4.5e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.074447,
+    "weight_decay": 0.017507,
+    "val_acc": 0.735,
+    "minutes": 10.077708,
+    "trial": 13
+   },
+   {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 4.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.090111,
+    "weight_decay": 0.065992,
+    "val_acc": 0.7385,
+    "minutes": 10.075,
+    "trial": 14
+   }
+  ]
+ },
+ "compute": {
+  "colab-L4": {
+   "runs": 36,
+   "hours": 6.77,
+   "cu": 20.16
+  },
+  "laptop-cpu": {
+   "runs": 33,
+   "hours": 0.02,
+   "cu": 0.0
+  },
+  "none": {
+   "runs": 1,
+   "hours": 2.51,
+   "cu": 0.0
+  },
+  "colab_by_stage": {
+   "embeddings": {
+    "runs": 1,
+    "hours": 0.67,
+    "cu": 1.29
+   },
+   "final": {
+    "runs": 20,
+    "hours": 3.6,
+    "cu": 13.98
+   },
+   "sweep": {
+    "runs": 15,
+    "hours": 2.5,
+    "cu": 4.89
+   }
+  }
+ },
+ "hypotheses": {
+  "H1_T": {
+   "rho": 0.8588235294117647,
+   "lo": 0.612568790509967,
+   "hi": 0.982063449568302,
+   "supported": true
+  },
+  "H1_B": {
+   "rho": 0.9382352941176471,
+   "lo": 0.7946043719211824,
+   "hi": 0.9910447761194031,
+   "supported": true
+  },
+  "H2_T_recent": {
+   "slope_per_congress": 0.002216666666666656,
+   "lo": -0.00684002125153156,
+   "hi": 0.011255059540164368,
+   "congresses": [
+    115,
+    119
+   ],
+   "verdict": "not distinguishable"
+  },
+  "H2_T_earlier": {
+   "slope_per_congress": 0.009959090909090909,
+   "lo": 0.006904314435502244,
+   "hi": 0.012833897983580967,
+   "congresses": [
+    104,
+    114
+   ],
+   "verdict": "rising"
+  },
+  "H2_B_recent": {
+   "slope_per_congress": 0.004299999999999982,
+   "lo": -0.007024878709062693,
+   "hi": 0.015312536721690449,
+   "congresses": [
+    115,
+    119
+   ],
+   "verdict": "not distinguishable"
+  },
+  "H2_B_earlier": {
+   "slope_per_congress": 0.010913636363636363,
+   "lo": 0.0080631007942141,
+   "hi": 0.013741089795697211,
+   "congresses": [
+    104,
+    114
+   ],
+   "verdict": "rising"
+  },
+  "H3": {
+   "mean_diff": 0.013416666666666681,
+   "lo": 0.006980334245272324,
+   "hi": 0.019096648393361698,
+   "n_t_higher": 13,
+   "congresses_b_higher": [
+    109,
+    112,
+    118
+   ],
+   "all_16": false,
+   "interval_excludes_zero": true,
+   "supported": false
+  }
+ },
+ "S1": {
+  "mean_drop": 0.004458333333333328,
+  "max_drop": 0.012500000000000067,
+  "max_drop_congress": 114
+ },
+ "S3_summary": {
+  "B": {
+   "long": 0.7765179910044978,
+   "middle": 0.7408033033033034,
+   "short": 0.7220764617691154
+  },
+  "T": {
+   "long": 0.7755184907546226,
+   "middle": 0.762668918918919,
+   "short": 0.7414730134932533
+  }
+ },
+ "S4_recall_mean": {
+  "B": {
+   "D": 0.7374166666666667,
+   "R": 0.747375
+  },
+  "T": {
+   "D": 0.7508333333333334,
+   "R": 0.7539861111111111
+  }
+ },
+ "S4_majority_minus_minority": {
+  "B": {
+   "mean_diff": 0.052129032258064506,
+   "n_majority_higher": 21,
+   "n_cells": 31
+  },
+  "T": {
+   "mean_diff": 0.04243727598566308,
+   "n_majority_higher": 24,
+   "n_cells": 31
+  }
+ },
+ "S2_mean": {
+  "House": {
+   "B": 0.7505,
+   "T": 0.7674
+  },
+  "Senate": {
+   "B": 0.7342,
+   "T": 0.7375
+  }
+ },
+ "H4": {
+  "n_mutually_within": 10,
+  "spearman_rho": 0.8545454545454546,
+  "mean_abs_diff": 0.01740909090909092,
+  "supported": true
+ },
+ "H5": {
+  "n_member_congresses": 8215,
+  "n_members": 1648,
+  "alphas": [
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0.1
+  ],
+  "r_all": {
+   "r": 0.7627036203778834,
+   "lo": 0.7483221015583148,
+   "hi": 0.7763204611936847,
+   "n": 8215
+  },
+  "r_D": {
+   "r": 0.4550316539034262,
+   "lo": 0.40631226615462246,
+   "hi": 0.5018631703922722,
+   "n": 4004
+  },
+  "r_R": {
+   "r": 0.4846395767616158,
+   "lo": 0.4411608533460862,
+   "hi": 0.5275013714887573,
+   "n": 4186
+  },
+  "verdict_all_gt_0.85": false,
+  "verdict_D_lt_0.5": true,
+  "verdict_R_lt_0.5": true,
+  "largest_residuals": {
+   "D": [
+    {
+     "name": "BRADY, Robert A.",
+     "state": "PA",
+     "bioguide": "B001227",
+     "congress": 110,
+     "chamber": "House",
+     "nominate_dim1": -0.484,
+     "pred": 0.4635179042816162,
+     "resid": 0.9475179042816162,
+     "n_turns": 43
+    },
+    {
+     "name": "SABO, Martin Olav",
+     "state": "MN",
+     "bioguide": "S000005",
+     "congress": 107,
+     "chamber": "House",
+     "nominate_dim1": -0.516,
+     "pred": 0.4147073030471802,
+     "resid": 0.9307073030471802,
+     "n_turns": 19
+    },
+    {
+     "name": "VEASEY, Marc",
+     "state": "TX",
+     "bioguide": "V000131",
+     "congress": 118,
+     "chamber": "House",
+     "nominate_dim1": -0.409,
+     "pred": 0.47395092248916626,
+     "resid": 0.8829509224891663,
+     "n_turns": 28
+    },
+    {
+     "name": "BRADY, Robert A.",
+     "state": "PA",
+     "bioguide": "B001227",
+     "congress": 115,
+     "chamber": "House",
+     "nominate_dim1": -0.484,
+     "pred": 0.39888012409210205,
+     "resid": 0.882880124092102,
+     "n_turns": 21
+    },
+    {
+     "name": "YARMUTH, John",
+     "state": "KY",
+     "bioguide": "Y000062",
+     "congress": 116,
+     "chamber": "House",
+     "nominate_dim1": -0.378,
+     "pred": 0.5025185346603394,
+     "resid": 0.8805185346603394,
+     "n_turns": 15
+    },
+    {
+     "name": "CLARKE, Yvette Diane",
+     "state": "NY",
+     "bioguide": "C001067",
+     "congress": 117,
+     "chamber": "House",
+     "nominate_dim1": -0.607,
+     "pred": 0.2674311399459839,
+     "resid": 0.8744311399459839,
+     "n_turns": 28
+    },
+    {
+     "name": "RASKIN, Jamie Ben",
+     "state": "MD",
+     "bioguide": "R000606",
+     "congress": 118,
+     "chamber": "House",
+     "nominate_dim1": -0.494,
+     "pred": 0.3595731258392334,
+     "resid": 0.8535731258392334,
+     "n_turns": 204
+    },
+    {
+     "name": "VISCLOSKY, Peter",
+     "state": "IN",
+     "bioguide": "V000108",
+     "congress": 114,
+     "chamber": "House",
+     "nominate_dim1": -0.402,
+     "pred": 0.44866669178009033,
+     "resid": 0.8506666917800904,
+     "n_turns": 68
+    },
+    {
+     "name": "GRIJALVA, Ra\u00fal M.",
+     "state": "AZ",
+     "bioguide": "G000551",
+     "congress": 110,
+     "chamber": "House",
+     "nominate_dim1": -0.598,
+     "pred": 0.2339334487915039,
+     "resid": 0.8319334487915039,
+     "n_turns": 152
+    },
+    {
+     "name": "ROSS, Michael Avery",
+     "state": "AR",
+     "bioguide": "R000573",
+     "congress": 110,
+     "chamber": "House",
+     "nominate_dim1": -0.201,
+     "pred": 0.6118828058242798,
+     "resid": 0.8128828058242799,
+     "n_turns": 154
+    }
+   ],
+   "R": [
+    {
+     "name": "MILLER, Gary G.",
+     "state": "CA",
+     "bioguide": "M001139",
+     "congress": 108,
+     "chamber": "House",
+     "nominate_dim1": 0.478,
+     "pred": -0.4139692187309265,
+     "resid": -0.8919692187309265,
+     "n_turns": 18
+    },
+    {
+     "name": "ROYCE, Edward Randall",
+     "state": "CA",
+     "bioguide": "R000487",
+     "congress": 115,
+     "chamber": "House",
+     "nominate_dim1": 0.657,
+     "pred": -0.22705137729644775,
+     "resid": -0.8840513772964478,
+     "n_turns": 232
+    },
+    {
+     "name": "ROYCE, Edward Randall",
+     "state": "CA",
+     "bioguide": "R000487",
+     "congress": 108,
+     "chamber": "House",
+     "nominate_dim1": 0.657,
+     "pred": -0.20820128917694092,
+     "resid": -0.865201289176941,
+     "n_turns": 63
+    },
+    {
+     "name": "MILLER, Gary G.",
+     "state": "CA",
+     "bioguide": "M001139",
+     "congress": 112,
+     "chamber": "House",
+     "nominate_dim1": 0.478,
+     "pred": -0.3645881414413452,
+     "resid": -0.8425881414413452,
+     "n_turns": 40
+    },
+    {
+     "name": "KELLY, Trent",
+     "state": "MS",
+     "bioguide": "K000388",
+     "congress": 118,
+     "chamber": "House",
+     "nominate_dim1": 0.636,
+     "pred": -0.18293136358261108,
+     "resid": -0.8189313635826111,
+     "n_turns": 10
+    },
+    {
+     "name": "HAWLEY, Joshua David",
+     "state": "MO",
+     "bioguide": "H001089",
+     "congress": 116,
+     "chamber": "Senate",
+     "nominate_dim1": 0.82,
+     "pred": 0.009710550308227539,
+     "resid": -0.8102894496917724,
+     "n_turns": 43
+    },
+    {
+     "name": "POSEY, Bill",
+     "state": "FL",
+     "bioguide": "P000599",
+     "congress": 116,
+     "chamber": "House",
+     "nominate_dim1": 0.533,
+     "pred": -0.27410587668418884,
+     "resid": -0.8071058766841889,
+     "n_turns": 16
+    },
+    {
+     "name": "HAWLEY, Joshua David",
+     "state": "MO",
+     "bioguide": "H001089",
+     "congress": 118,
+     "chamber": "Senate",
+     "nominate_dim1": 0.82,
+     "pred": 0.014197707176208496,
+     "resid": -0.8058022928237915,
+     "n_turns": 42
+    },
+    {
+     "name": "LOPEZ, Greg",
+     "state": "CO",
+     "bioguide": "L000604",
+     "congress": 118,
+     "chamber": "House",
+     "nominate_dim1": 0.894,
+     "pred": 0.0927424430847168,
+     "resid": -0.8012575569152832,
+     "n_turns": 17
+    },
+    {
+     "name": "STEFANIK, Elise M.",
+     "state": "NY",
+     "bioguide": "S001196",
+     "congress": 116,
+     "chamber": "House",
+     "nominate_dim1": 0.309,
+     "pred": -0.4907591938972473,
+     "resid": -0.7997591938972473,
+     "n_turns": 29
+    }
+   ]
+  }
+ },
+ "H5_alpha_check": {
+  "nested_alphas": [
+   0.01,
+   0.01,
+   0.01,
+   0.01,
+   0.01
+  ],
+  "r_all": {
+   "r": 0.782659661946963,
+   "lo": 0.7695174426868961,
+   "hi": 0.7953431364050223,
+   "n": 8215
+  },
+  "r_D": {
+   "r": 0.4400975603865538,
+   "lo": 0.3933241835011486,
+   "hi": 0.48726707094329225,
+   "n": 4004
+  },
+  "r_R": {
+   "r": 0.4878195132170691,
+   "lo": 0.44422797780851536,
+   "hi": 0.5281718232393161,
+   "n": 4186
+  },
+  "fixed_alpha": {
+   "0.0001": {
+    "all": 0.7817978994517745,
+    "D": 0.42614870598609705,
+    "R": 0.46874635688444943
+   },
+   "0.001": {
+    "all": 0.7853134039813987,
+    "D": 0.43137469113456706,
+    "R": 0.47982293730078557
+   },
+   "0.01": {
+    "all": 0.782659661946963,
+    "D": 0.4400975603865538,
+    "R": 0.4878195132170691
+   },
+   "0.03": {
+    "all": 0.7765598637594274,
+    "D": 0.44780213201117736,
+    "R": 0.48843611342310705
+   },
+   "0.1": {
+    "all": 0.7627036203778834,
+    "D": 0.4550316539034262,
+    "R": 0.4846395767616158
+   },
+   "1": {
+    "all": 0.7035206498486419,
+    "D": 0.4459825028719392,
+    "R": 0.44361804765775353
+   },
+   "10": {
+    "all": 0.5839386926872344,
+    "D": 0.3639388921831652,
+    "R": 0.31821212340798055
+   },
+   "100": {
+    "all": 0.46767416311262644,
+    "D": 0.2522485704991145,
+    "R": 0.2478507655286489
+   }
+  }
+ },
+ "H5_extra": {
+  "D": {
+   "mae": 0.2437,
+   "same_sign": 0.7645,
+   "n": 4004
+  },
+  "I": {
+   "mae": 0.1821,
+   "same_sign": 0.84,
+   "n": 25
+  },
+  "R": {
+   "mae": 0.2248,
+   "same_sign": 0.9071,
+   "n": 4186
+  }
+ },
+ "accuracy_summary": {
+  "t_min": {
+   "congress": 105.0,
+   "t_acc": 0.669
+  },
+  "t_max": {
+   "congress": 119.0,
+   "t_acc": 0.846
+  },
+  "t_mean_104_106": 0.6985,
+  "t_mean_117_119": 0.8168,
+  "gap_104": 0.7455,
+  "gap_119": 0.9153,
+  "top10_share_104": 0.166,
+  "top10_share_119": 0.2375
+ }
+}
