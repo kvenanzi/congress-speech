@@ -181,8 +181,8 @@ def fig_sweep(runs: list) -> dict:
     pf = go.Figure(go.Parcoords(line=dict(color=d.val_acc, colorscale=[[0, "#cde2fb"], [1, "#0d366b"]], showscale=False),
                                 dimensions=dims))
     post_runs.style(pf, height=460)
-    pf.update_layout(margin=dict(l=60, r=60, t=60, b=30))
-    post_runs.write_chart(pf, OUT / "sweep.html", small_margins={"margin.l": 30, "margin.r": 30})
+    pf.update_layout(margin=dict(l=100, r=80, t=60, b=30))
+    post_runs.write_chart(pf, OUT / "sweep.html", small_margins={"margin.l": 70, "margin.r": 60})
     best = d[d.val_acc == d.val_acc.max()]
     return {"n_trials": len(d), "best_val_acc": float(d.val_acc.max()), "tied_trials": best.trial.tolist(),
             "worst_val_acc": float(d.val_acc.min()), "trials": d.round(6).to_dict("records")}

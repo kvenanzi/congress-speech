@@ -7,8 +7,6 @@ description: "A language model guessed a member's party from one floor speech, C
 
 *Testing how well one floor speech gives away a member of Congress's party, in each Congress from 1995 to 2026, and how well speeches predict the way members vote.*
 
-<!-- Kevin: the next two paragraphs are the place for your own reason for asking. Replace or extend them. -->
-
 On 3 November 2026, Democrats won control of both the House and the Senate ([Associated Press via PBS News, 4 November 2026](https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house)). After every election I hear that the two parties now use very different language. I wanted to see whether the difference in how they speak can be measured, and whether it has kept growing in the last ten years.
 
 There is a well-known way to measure it. Economists Matthew Gentzkow, Jesse Shapiro, and Matt Taddy asked how easily someone could guess a member's party from their speech in Congress, and found that it became much easier starting in the mid-1990s ([Gentzkow et al 2019](#references)). Their data end in 2016. I repeated the measurement with a modern language model on every Congress from 1995 to 2026, and also asked how well a member's speeches predict how they vote.
