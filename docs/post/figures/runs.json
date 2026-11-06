@@ -1,0 +1,2475 @@
+{
+ "source": "MLflow experiment congress-speech at https://mlflow.withinnoise.dev",
+ "exported_at": "2026-11-06T17:15:08+00:00",
+ "n_runs": 70,
+ "runs": [
+  {
+   "id": "fece6d3688d14b508acd9a2741131bbb",
+   "name": "smoke-cpu",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T15:51:58+00:00",
+   "end": "2026-11-05T15:51:59+00:00",
+   "params": {
+    "check": "connectivity"
+   },
+   "metrics": {
+    "ok": 1.0
+   },
+   "tags": {
+    "cu_estimate": "0",
+    "git_commit": "a966b38",
+    "mlflow.runName": "smoke-cpu",
+    "mlflow.source.git.commit": "a966b3816b1aa9f3fef43ed9b2aa9ff0b386d5ac",
+    "purpose": "smoke test",
+    "runtime": "laptop-cpu"
+   }
+  },
+  {
+   "id": "12736088438a4b27adb0690457afd205",
+   "name": "congress-104-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:39:39+00:00",
+   "end": "2026-11-05T16:39:41+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 106
+   },
+   "metrics": {
+    "seconds": 36.530795,
+    "test_acc": 0.7055,
+    "test_acc_hi": 0.734908,
+    "test_acc_lo": 0.675092,
+    "val_acc": 0.7015,
+    "vocab": 124248.0
+   },
+   "tags": {
+    "congress": "104",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-104-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-104-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "4f5d323d9df0431e90e02c7685b36ad7",
+   "name": "congress-105-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:40:14+00:00",
+   "end": "2026-11-05T16:40:16+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 106
+   },
+   "metrics": {
+    "seconds": 31.886784,
+    "test_acc": 0.6565,
+    "test_acc_hi": 0.687563,
+    "test_acc_lo": 0.627458,
+    "val_acc": 0.6705,
+    "vocab": 132665.0
+   },
+   "tags": {
+    "congress": "105",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-105-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-105-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "b841fc47875a484fb459623940d73b6a",
+   "name": "congress-106-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:41:05+00:00",
+   "end": "2026-11-05T16:41:07+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 47.548414,
+    "test_acc": 0.6705,
+    "test_acc_hi": 0.704185,
+    "test_acc_lo": 0.635873,
+    "val_acc": 0.6725,
+    "vocab": 137616.0
+   },
+   "tags": {
+    "congress": "106",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-106-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-106-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "9b8b0257b2284450b5dedf62a8290485",
+   "name": "congress-107-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:41:48+00:00",
+   "end": "2026-11-05T16:41:50+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 40.145453,
+    "test_acc": 0.6745,
+    "test_acc_hi": 0.704372,
+    "test_acc_lo": 0.646547,
+    "val_acc": 0.661,
+    "vocab": 143623.0
+   },
+   "tags": {
+    "congress": "107",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-107-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-107-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "f81d24adf4da4160842ff74d97e25b5d",
+   "name": "congress-108-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:42:17+00:00",
+   "end": "2026-11-05T16:42:20+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 26.451166,
+    "test_acc": 0.71,
+    "test_acc_hi": 0.743346,
+    "test_acc_lo": 0.676862,
+    "val_acc": 0.7305,
+    "vocab": 142090.0
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-108-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-108-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "506b490721bb42b4a47a283b664da81e",
+   "name": "congress-109-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:43:01+00:00",
+   "end": "2026-11-05T16:43:03+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 106
+   },
+   "metrics": {
+    "seconds": 40.193118,
+    "test_acc": 0.733,
+    "test_acc_hi": 0.761426,
+    "test_acc_lo": 0.70376,
+    "val_acc": 0.7495,
+    "vocab": 146320.0
+   },
+   "tags": {
+    "congress": "109",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-109-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-109-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "bcba48bc07314e80965f9a92f0dc9530",
+   "name": "congress-110-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:43:38+00:00",
+   "end": "2026-11-05T16:43:40+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 109
+   },
+   "metrics": {
+    "seconds": 34.534965,
+    "test_acc": 0.719,
+    "test_acc_hi": 0.753345,
+    "test_acc_lo": 0.684133,
+    "val_acc": 0.745,
+    "vocab": 145729.0
+   },
+   "tags": {
+    "congress": "110",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-110-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-110-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "78615bb7c59c43d6b02281c55bf882dc",
+   "name": "congress-111-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:44:44+00:00",
+   "end": "2026-11-05T16:44:47+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 109
+   },
+   "metrics": {
+    "seconds": 63.115368,
+    "test_acc": 0.7805,
+    "test_acc_hi": 0.810437,
+    "test_acc_lo": 0.748317,
+    "val_acc": 0.7495,
+    "vocab": 135494.0
+   },
+   "tags": {
+    "congress": "111",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-111-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-111-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "62ac512a45a549f0851607ddb1d00ff9",
+   "name": "congress-104-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:44:46+00:00",
+   "end": "2026-11-05T16:44:48+00:00",
+   "params": {
+    "C": 1,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 61.785213,
+    "test_acc": 0.6905,
+    "test_acc_hi": 0.722227,
+    "test_acc_lo": 0.658307,
+    "val_acc": 0.677,
+    "vocab": 113984.0
+   },
+   "tags": {
+    "congress": "104",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-104-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-104-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "c8aa4f3f05694d4cb403c9d6f90b7b71",
+   "name": "congress-112-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:45:23+00:00",
+   "end": "2026-11-05T16:45:31+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 108
+   },
+   "metrics": {
+    "seconds": 35.702158,
+    "test_acc": 0.758,
+    "test_acc_hi": 0.787704,
+    "test_acc_lo": 0.727227,
+    "val_acc": 0.7875,
+    "vocab": 134078.0
+   },
+   "tags": {
+    "congress": "112",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-112-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-112-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "298397f79cf74354bd8e9a7bdcba696b",
+   "name": "congress-105-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:45:27+00:00",
+   "end": "2026-11-05T16:45:34+00:00",
+   "params": {
+    "C": 1,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 109
+   },
+   "metrics": {
+    "seconds": 38.639951,
+    "test_acc": 0.678,
+    "test_acc_hi": 0.709372,
+    "test_acc_lo": 0.644056,
+    "val_acc": 0.6605,
+    "vocab": 125903.0
+   },
+   "tags": {
+    "congress": "105",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-105-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-105-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "43851cbcff79417a8696202033b4a944",
+   "name": "congress-113-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:46:06+00:00",
+   "end": "2026-11-05T16:46:09+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 106
+   },
+   "metrics": {
+    "seconds": 33.045333,
+    "test_acc": 0.762,
+    "test_acc_hi": 0.791648,
+    "test_acc_lo": 0.729008,
+    "val_acc": 0.763,
+    "vocab": 132983.0
+   },
+   "tags": {
+    "congress": "113",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-113-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-113-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "109938391774430682754497f636e7be",
+   "name": "congress-106-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:46:16+00:00",
+   "end": "2026-11-05T16:46:18+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 40.697795,
+    "test_acc": 0.657,
+    "test_acc_hi": 0.689907,
+    "test_acc_lo": 0.624022,
+    "val_acc": 0.6685,
+    "vocab": 128924.0
+   },
+   "tags": {
+    "congress": "106",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-106-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-106-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "e1b1d1e8502b4bfda3a8ba75ce99ada7",
+   "name": "congress-114-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:46:33+00:00",
+   "end": "2026-11-05T16:46:35+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 23.397599,
+    "test_acc": 0.7645,
+    "test_acc_hi": 0.791898,
+    "test_acc_lo": 0.735343,
+    "val_acc": 0.773,
+    "vocab": 134991.0
+   },
+   "tags": {
+    "congress": "114",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-114-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-114-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "7532f65ddd5f405d99c7c9b1f51a4c3b",
+   "name": "congress-107-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:47:21+00:00",
+   "end": "2026-11-05T16:47:24+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 62.189361,
+    "test_acc": 0.6625,
+    "test_acc_hi": 0.691013,
+    "test_acc_lo": 0.632527,
+    "val_acc": 0.6695,
+    "vocab": 132810.0
+   },
+   "tags": {
+    "congress": "107",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-107-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-107-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "5dcd84c8a3f34e968cef5807c5123637",
+   "name": "congress-115-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:47:36+00:00",
+   "end": "2026-11-05T16:47:39+00:00",
+   "params": {
+    "C": 1,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 108
+   },
+   "metrics": {
+    "seconds": 60.096971,
+    "test_acc": 0.787,
+    "test_acc_hi": 0.819595,
+    "test_acc_lo": 0.754893,
+    "val_acc": 0.7815,
+    "vocab": 145616.0
+   },
+   "tags": {
+    "congress": "115",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-115-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-115-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "7184dba48b6c4342b4f37797c97ebb2e",
+   "name": "congress-108-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:48:04+00:00",
+   "end": "2026-11-05T16:48:07+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 39.657303,
+    "test_acc": 0.6895,
+    "test_acc_hi": 0.721237,
+    "test_acc_lo": 0.658393,
+    "val_acc": 0.706,
+    "vocab": 132183.0
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-108-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-108-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "ed44cc594af74ebeba55be6742db635c",
+   "name": "congress-116-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:48:21+00:00",
+   "end": "2026-11-05T16:48:24+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 106
+   },
+   "metrics": {
+    "seconds": 41.722847,
+    "test_acc": 0.8015,
+    "test_acc_hi": 0.827396,
+    "test_acc_lo": 0.773253,
+    "val_acc": 0.796,
+    "vocab": 143128.0
+   },
+   "tags": {
+    "congress": "116",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-116-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-116-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "d201efad188f4e239e3dc25d1bf81c80",
+   "name": "congress-109-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:49:01+00:00",
+   "end": "2026-11-05T16:49:04+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 108
+   },
+   "metrics": {
+    "seconds": 53.614767,
+    "test_acc": 0.725,
+    "test_acc_hi": 0.749409,
+    "test_acc_lo": 0.699206,
+    "val_acc": 0.7185,
+    "vocab": 135584.0
+   },
+   "tags": {
+    "congress": "109",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-109-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-109-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "d73a7892f4cc43e3919366838b1782d1",
+   "name": "congress-117-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:49:04+00:00",
+   "end": "2026-11-05T16:49:06+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 109
+   },
+   "metrics": {
+    "seconds": 39.123989,
+    "test_acc": 0.8205,
+    "test_acc_hi": 0.848092,
+    "test_acc_lo": 0.791148,
+    "val_acc": 0.8185,
+    "vocab": 138265.0
+   },
+   "tags": {
+    "congress": "117",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-117-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-117-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "33ec4aea41c74ac78be0fa5b1c8c09c8",
+   "name": "congress-118-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:49:58+00:00",
+   "end": "2026-11-05T16:50:00+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 108
+   },
+   "metrics": {
+    "seconds": 50.96092,
+    "test_acc": 0.7825,
+    "test_acc_hi": 0.825593,
+    "test_acc_lo": 0.737731,
+    "val_acc": 0.8235,
+    "vocab": 134763.0
+   },
+   "tags": {
+    "congress": "118",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-118-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-118-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "675e9046b34541c188e8114e044f00dd",
+   "name": "congress-110-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:50:05+00:00",
+   "end": "2026-11-05T16:50:08+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 110
+   },
+   "metrics": {
+    "seconds": 60.985428,
+    "test_acc": 0.7405,
+    "test_acc_hi": 0.76651,
+    "test_acc_lo": 0.713785,
+    "val_acc": 0.727,
+    "vocab": 131018.0
+   },
+   "tags": {
+    "congress": "110",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-110-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-110-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "1c90604f56a343c8afe2aa8048073338",
+   "name": "congress-119-tfidf-govinfo",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:50:45+00:00",
+   "end": "2026-11-05T16:50:48+00:00",
+   "params": {
+    "C": 10,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 108
+   },
+   "metrics": {
+    "seconds": 44.260576,
+    "test_acc": 0.818,
+    "test_acc_hi": 0.854478,
+    "test_acc_lo": 0.782276,
+    "val_acc": 0.828,
+    "vocab": 139795.0
+   },
+   "tags": {
+    "congress": "119",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-119-tfidf-govinfo",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-119-tfidf-govinfo",
+    "runtime": "laptop-cpu",
+    "source": "govinfo"
+   }
+  },
+  {
+   "id": "0e362e0e6fa54a069e3a928162425f47",
+   "name": "congress-111-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:50:59+00:00",
+   "end": "2026-11-05T16:51:02+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 110
+   },
+   "metrics": {
+    "seconds": 50.777471,
+    "test_acc": 0.7895,
+    "test_acc_hi": 0.820205,
+    "test_acc_lo": 0.755998,
+    "val_acc": 0.7865,
+    "vocab": 130904.0
+   },
+   "tags": {
+    "congress": "111",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-111-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-111-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "24b24825c50645d98d2a6e03b1881932",
+   "name": "congress-112-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:51:26+00:00",
+   "end": "2026-11-05T16:51:28+00:00",
+   "params": {
+    "C": 1,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 107
+   },
+   "metrics": {
+    "seconds": 23.632429,
+    "test_acc": 0.769,
+    "test_acc_hi": 0.801973,
+    "test_acc_lo": 0.736018,
+    "val_acc": 0.74,
+    "vocab": 129444.0
+   },
+   "tags": {
+    "congress": "112",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-112-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-112-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "64c7a7c8e19a41ed944d058be98b2baa",
+   "name": "congress-113-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:51:45+00:00",
+   "end": "2026-11-05T16:51:47+00:00",
+   "params": {
+    "C": 3,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 109
+   },
+   "metrics": {
+    "seconds": 16.129948,
+    "test_acc": 0.739,
+    "test_acc_hi": 0.770865,
+    "test_acc_lo": 0.707368,
+    "val_acc": 0.7785,
+    "vocab": 128482.0
+   },
+   "tags": {
+    "congress": "113",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-113-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-113-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "b8b94a9c03424ee9a5ca7ef391578380",
+   "name": "congress-114-tfidf-hein",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:52:08+00:00",
+   "end": "2026-11-05T16:52:10+00:00",
+   "params": {
+    "C": 1,
+    "min_df": 5,
+    "n_test": 2000,
+    "n_train": 12000,
+    "ngram": "1-2",
+    "test_speakers": 108
+   },
+   "metrics": {
+    "seconds": 19.847337,
+    "test_acc": 0.728,
+    "test_acc_hi": 0.755298,
+    "test_acc_lo": 0.699796,
+    "val_acc": 0.7405,
+    "vocab": 131954.0
+   },
+   "tags": {
+    "congress": "114",
+    "cu_estimate": "0",
+    "git_commit": "e4a3cd4",
+    "mlflow.runName": "congress-114-tfidf-hein",
+    "mlflow.source.git.commit": "e4a3cd411adf20d557e519b82cbcd1936da9c25a",
+    "model": "tfidf",
+    "run_name_tag": "congress-114-tfidf-hein",
+    "runtime": "laptop-cpu",
+    "source": "hein"
+   }
+  },
+  {
+   "id": "cc7b052fb1254b3e947b7d65812719d8",
+   "name": "h4-source-check",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T16:52:31+00:00",
+   "end": "2026-11-05T16:52:32+00:00",
+   "params": {},
+   "metrics": {
+    "mean_abs_diff": 0.017409,
+    "n_mutually_within": 10.0,
+    "spearman_rho": 0.854545,
+    "supported": 1.0
+   },
+   "tags": {
+    "cu_estimate": "0",
+    "git_commit": "d176c4c",
+    "mlflow.runName": "h4-source-check",
+    "mlflow.source.git.commit": "d176c4c9b8327d389666c110e2407c721304cb1f",
+    "model": "tfidf",
+    "runtime": "laptop-cpu",
+    "stage": "h4"
+   }
+  },
+  {
+   "id": "cd6a6f019fdc464786f856b7391a9ccf",
+   "name": "congress-speech-sweep-01",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T17:02:14+00:00",
+   "end": "2026-11-05T19:32:53+00:00",
+   "params": {},
+   "metrics": {
+    "best_val_acc": 0.7465
+   },
+   "tags": {
+    "congress": "108",
+    "mlflow.runName": "congress-speech-sweep-01",
+    "optuna.study": "congress-speech-sweep-01",
+    "stage": "sweep-parent"
+   }
+  },
+  {
+   "id": "7585664b51464689b785442e5b1fbe8e",
+   "name": "trial-000",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T17:02:14+00:00",
+   "end": "2026-11-05T17:07:22+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 1,
+    "lr": 2.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.041506,
+    "weight_decay": 0.027244
+   },
+   "metrics": {
+    "hours": 0.085446,
+    "minutes": 5.022807,
+    "train_loss": 0.575075,
+    "val_acc": 0.726
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.17",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-000",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "0",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "a13af4a2d90e43e981ebdbcdf0d265e3",
+   "name": "trial-001",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T17:07:23+00:00",
+   "end": "2026-11-05T17:12:00+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.006512,
+    "weight_decay": 0.054217
+   },
+   "metrics": {
+    "hours": 0.076765,
+    "minutes": 4.503126,
+    "train_loss": 0.394428,
+    "val_acc": 0.714
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.15",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-001",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "1",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "d55e8da44f204091a34757173eed0650",
+   "name": "trial-002",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T17:12:01+00:00",
+   "end": "2026-11-05T17:19:23+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 2.9e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.036673,
+    "weight_decay": 0.093967
+   },
+   "metrics": {
+    "hours": 0.122692,
+    "minutes": 7.257806,
+    "train_loss": 0.195015,
+    "val_acc": 0.731
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.24",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-002",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "2",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "bff7f490cd6b4154aa9432b59797c6dd",
+   "name": "trial-003",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T17:19:23+00:00",
+   "end": "2026-11-05T17:29:35+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.169732,
+    "minutes": 10.074399,
+    "train_loss": 0.33172,
+    "val_acc": 0.7465
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.33",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-003",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "3",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "2265f725fd974b66a552cd61d164c907",
+   "name": "trial-004",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T17:29:36+00:00",
+   "end": "2026-11-05T17:46:11+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 8e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.082723,
+    "weight_decay": 0.030356
+   },
+   "metrics": {
+    "hours": 0.27631,
+    "minutes": 16.47382,
+    "train_loss": 0.088239,
+    "val_acc": 0.7465
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.54",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-004",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "4",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "f4593aa161f0484ca8e81199dc1d2435",
+   "name": "trial-005",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T17:46:12+00:00",
+   "end": "2026-11-05T18:02:47+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 1.9e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.039183,
+    "weight_decay": 0.006719
+   },
+   "metrics": {
+    "hours": 0.276309,
+    "minutes": 16.469348,
+    "train_loss": 0.331511,
+    "val_acc": 0.736
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.54",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-005",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "5",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "f491615feefc4627955edb87b07809e6",
+   "name": "trial-006",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:02:48+00:00",
+   "end": "2026-11-05T18:07:57+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 1,
+    "lr": 1.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.061712,
+    "weight_decay": 0.096705
+   },
+   "metrics": {
+    "hours": 0.08567,
+    "minutes": 5.031729,
+    "train_loss": 0.593167,
+    "val_acc": 0.7105
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.17",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-006",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "6",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "a09442290e2f4c9e81d85e0d21cd33da",
+   "name": "trial-007",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:07:57+00:00",
+   "end": "2026-11-05T18:15:20+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 8.4e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.022185,
+    "weight_decay": 0.083587
+   },
+   "metrics": {
+    "hours": 0.122853,
+    "minutes": 7.260964,
+    "train_loss": 0.10021,
+    "val_acc": 0.727
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.24",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-007",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "7",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "044f77ced3424b1bbe6b96630393bf6e",
+   "name": "trial-008",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:15:21+00:00",
+   "end": "2026-11-05T18:17:52+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 1,
+    "lr": 4.9e-05,
+    "max_len": 256,
+    "seed": 20261105,
+    "warmup": 0.099992,
+    "weight_decay": 0.00945
+   },
+   "metrics": {
+    "hours": 0.041946,
+    "minutes": 2.412994,
+    "train_loss": 0.614957,
+    "val_acc": 0.683
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.08",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-008",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "8",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "bc4e9b3d3a064072b904d05089e021a0",
+   "name": "trial-009",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:17:53+00:00",
+   "end": "2026-11-05T18:34:28+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 7.5e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.093056,
+    "weight_decay": 0.038273
+   },
+   "metrics": {
+    "hours": 0.276331,
+    "minutes": 16.468769,
+    "train_loss": 0.105594,
+    "val_acc": 0.7465
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.54",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-009",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "9",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "54f27544b14e44dabb5cebe87ecc8b04",
+   "name": "trial-010",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:34:29+00:00",
+   "end": "2026-11-05T18:45:34+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 2,
+    "lr": 1.2e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.092664,
+    "weight_decay": 0.013626
+   },
+   "metrics": {
+    "hours": 0.18465,
+    "minutes": 10.973166,
+    "train_loss": 0.499827,
+    "val_acc": 0.698
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.36",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-010",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "10",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "5b6650893868476d94fb50db0ca30f9f",
+   "name": "trial-011",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:45:35+00:00",
+   "end": "2026-11-05T18:55:46+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 2.2e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.060035,
+    "weight_decay": 0.060421
+   },
+   "metrics": {
+    "hours": 0.169681,
+    "minutes": 10.06778,
+    "train_loss": 0.362113,
+    "val_acc": 0.7465
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.33",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-011",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "11",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "deb5f7349b184b878d93362b7ab6da5e",
+   "name": "trial-012",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T18:55:47+00:00",
+   "end": "2026-11-05T19:12:22+00:00",
+   "params": {
+    "batch_size": 32,
+    "epochs": 3,
+    "lr": 5.5e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.053852,
+    "weight_decay": 0.049725
+   },
+   "metrics": {
+    "hours": 0.27628,
+    "minutes": 16.470104,
+    "train_loss": 0.107556,
+    "val_acc": 0.744
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.54",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-012",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "12",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "844cf533fa8a4e4aa8246b0d9ca3a8aa",
+   "name": "trial-013",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T19:12:23+00:00",
+   "end": "2026-11-05T19:22:34+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 4.5e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.074447,
+    "weight_decay": 0.017507
+   },
+   "metrics": {
+    "hours": 0.169738,
+    "minutes": 10.077708,
+    "train_loss": 0.329295,
+    "val_acc": 0.735
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.33",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-013",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "13",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "ff11243f9acc402abfa82fb393d5c77e",
+   "name": "trial-014",
+   "parent": "cd6a6f019fdc464786f856b7391a9ccf",
+   "status": "FINISHED",
+   "start": "2026-11-05T19:22:35+00:00",
+   "end": "2026-11-05T19:32:47+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 4.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.090111,
+    "weight_decay": 0.065992
+   },
+   "metrics": {
+    "hours": 0.16973,
+    "minutes": 10.075,
+    "train_loss": 0.339328,
+    "val_acc": 0.7385
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.33",
+    "git_commit": "e4a3cd4",
+    "mlflow.parentRunId": "cd6a6f019fdc464786f856b7391a9ccf",
+    "mlflow.runName": "trial-014",
+    "model": "modernbert",
+    "optuna.study": "congress-speech-sweep-01",
+    "optuna.trial": "14",
+    "runtime": "colab-L4",
+    "stage": "sweep"
+   }
+  },
+  {
+   "id": "30cbc958d6384eb39cd8c3e94ebee781",
+   "name": "congress-104-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T20:36:01+00:00",
+   "end": "2026-11-05T20:46:42+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.177525,
+    "minutes": 10.126158,
+    "test_acc": 0.7335,
+    "test_acc_hi": 0.764279,
+    "test_acc_lo": 0.701911,
+    "test_acc_masked": 0.7275,
+    "test_acc_masked_hi": 0.759471,
+    "test_acc_masked_lo": 0.694927,
+    "train_loss": 0.409422,
+    "val_acc": 0.7145
+   },
+   "tags": {
+    "congress": "104",
+    "cu_estimate": "0.69",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-104-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "99064627997b49cc9b0d6947e4cb4e0b",
+   "name": "congress-105-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T20:46:50+00:00",
+   "end": "2026-11-05T20:57:38+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179574,
+    "minutes": 10.217954,
+    "test_acc": 0.669,
+    "test_acc_hi": 0.697601,
+    "test_acc_lo": 0.640985,
+    "test_acc_masked": 0.6665,
+    "test_acc_masked_hi": 0.695477,
+    "test_acc_masked_lo": 0.637896,
+    "train_loss": 0.457984,
+    "val_acc": 0.677
+   },
+   "tags": {
+    "congress": "105",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-105-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "781c555ab92d43e0ae8e0c8867fccee9",
+   "name": "congress-106-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T20:57:45+00:00",
+   "end": "2026-11-05T21:08:37+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180731,
+    "minutes": 10.265247,
+    "test_acc": 0.693,
+    "test_acc_hi": 0.723034,
+    "test_acc_lo": 0.661238,
+    "test_acc_masked": 0.6885,
+    "test_acc_masked_hi": 0.716532,
+    "test_acc_masked_lo": 0.656921,
+    "train_loss": 0.415983,
+    "val_acc": 0.676
+   },
+   "tags": {
+    "congress": "106",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-106-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "05e1c276396c44a4b9321c61a80dac0d",
+   "name": "congress-107-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T21:08:44+00:00",
+   "end": "2026-11-05T21:19:36+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180616,
+    "minutes": 10.256848,
+    "test_acc": 0.682,
+    "test_acc_hi": 0.712861,
+    "test_acc_lo": 0.649148,
+    "test_acc_masked": 0.6785,
+    "test_acc_masked_hi": 0.708927,
+    "test_acc_masked_lo": 0.644874,
+    "train_loss": 0.464656,
+    "val_acc": 0.6655
+   },
+   "tags": {
+    "congress": "107",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-107-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "7363f232079145328b20d321b0866406",
+   "name": "congress-108-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T21:19:38+00:00",
+   "end": "2026-11-05T21:30:31+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.181101,
+    "minutes": 10.270198,
+    "test_acc": 0.717,
+    "test_acc_hi": 0.751356,
+    "test_acc_lo": 0.682624,
+    "test_acc_masked": 0.7175,
+    "test_acc_masked_hi": 0.75096,
+    "test_acc_masked_lo": 0.683093,
+    "train_loss": 0.343577,
+    "val_acc": 0.735
+   },
+   "tags": {
+    "congress": "108",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-108-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "4609ddb0d42646dfa749faf310240fca",
+   "name": "congress-109-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T21:30:38+00:00",
+   "end": "2026-11-05T21:41:31+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180823,
+    "minutes": 10.277615,
+    "test_acc": 0.7305,
+    "test_acc_hi": 0.758514,
+    "test_acc_lo": 0.700472,
+    "test_acc_masked": 0.729,
+    "test_acc_masked_hi": 0.756869,
+    "test_acc_masked_lo": 0.700154,
+    "train_loss": 0.385159,
+    "val_acc": 0.7355
+   },
+   "tags": {
+    "congress": "109",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-109-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "ab473f32650240d58d49f28f2692a57f",
+   "name": "congress-110-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T21:41:38+00:00",
+   "end": "2026-11-05T21:52:31+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180729,
+    "minutes": 10.262782,
+    "test_acc": 0.722,
+    "test_acc_hi": 0.753094,
+    "test_acc_lo": 0.690454,
+    "test_acc_masked": 0.7185,
+    "test_acc_masked_hi": 0.749084,
+    "test_acc_masked_lo": 0.688055,
+    "train_loss": 0.395511,
+    "val_acc": 0.743
+   },
+   "tags": {
+    "congress": "110",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-110-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "8a9ca2b586ad4d15a7e27df90af28666",
+   "name": "congress-111-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T21:52:36+00:00",
+   "end": "2026-11-05T22:03:23+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179263,
+    "minutes": 10.20436,
+    "test_acc": 0.81,
+    "test_acc_hi": 0.838649,
+    "test_acc_lo": 0.781872,
+    "test_acc_masked": 0.811,
+    "test_acc_masked_hi": 0.838888,
+    "test_acc_masked_lo": 0.783362,
+    "train_loss": 0.30194,
+    "val_acc": 0.782
+   },
+   "tags": {
+    "congress": "111",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-111-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "288331e107c14be6a49cc28a69a13145",
+   "name": "congress-112-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T22:03:31+00:00",
+   "end": "2026-11-05T22:14:20+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179871,
+    "minutes": 10.237246,
+    "test_acc": 0.755,
+    "test_acc_hi": 0.786886,
+    "test_acc_lo": 0.72234,
+    "test_acc_masked": 0.7455,
+    "test_acc_masked_hi": 0.775962,
+    "test_acc_masked_lo": 0.71346,
+    "train_loss": 0.295048,
+    "val_acc": 0.792
+   },
+   "tags": {
+    "congress": "112",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-112-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "d6b555fe0075462ea98fd719ca8731b4",
+   "name": "congress-113-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T22:14:27+00:00",
+   "end": "2026-11-05T22:25:15+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179392,
+    "minutes": 10.207905,
+    "test_acc": 0.7755,
+    "test_acc_hi": 0.806859,
+    "test_acc_lo": 0.74386,
+    "test_acc_masked": 0.7725,
+    "test_acc_masked_hi": 0.804187,
+    "test_acc_masked_lo": 0.740854,
+    "train_loss": 0.286156,
+    "val_acc": 0.777
+   },
+   "tags": {
+    "congress": "113",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-113-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "7e395f98772542d8a831d273ffdfdd66",
+   "name": "congress-114-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T22:25:21+00:00",
+   "end": "2026-11-05T22:36:10+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179592,
+    "minutes": 10.216649,
+    "test_acc": 0.778,
+    "test_acc_hi": 0.807734,
+    "test_acc_lo": 0.748233,
+    "test_acc_masked": 0.7655,
+    "test_acc_masked_hi": 0.798152,
+    "test_acc_masked_lo": 0.734076,
+    "train_loss": 0.323078,
+    "val_acc": 0.772
+   },
+   "tags": {
+    "congress": "114",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-114-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "b005104648ca473d80e6926e72dde9f2",
+   "name": "congress-115-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T22:36:17+00:00",
+   "end": "2026-11-05T22:47:08+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180306,
+    "minutes": 10.244502,
+    "test_acc": 0.8025,
+    "test_acc_hi": 0.82804,
+    "test_acc_lo": 0.775008,
+    "test_acc_masked": 0.8045,
+    "test_acc_masked_hi": 0.830154,
+    "test_acc_masked_lo": 0.77679,
+    "train_loss": 0.256425,
+    "val_acc": 0.8085
+   },
+   "tags": {
+    "congress": "115",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-115-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "c208434ba62642d782a5c06939b34000",
+   "name": "congress-116-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T22:47:15+00:00",
+   "end": "2026-11-05T22:58:03+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179653,
+    "minutes": 10.210896,
+    "test_acc": 0.833,
+    "test_acc_hi": 0.856468,
+    "test_acc_lo": 0.807076,
+    "test_acc_masked": 0.8315,
+    "test_acc_masked_hi": 0.854456,
+    "test_acc_masked_lo": 0.80586,
+    "train_loss": 0.249509,
+    "val_acc": 0.805
+   },
+   "tags": {
+    "congress": "116",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-116-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "ea3da390d3174fe6866628da181f3eab",
+   "name": "congress-117-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T22:58:10+00:00",
+   "end": "2026-11-05T23:08:55+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.178549,
+    "minutes": 10.17896,
+    "test_acc": 0.823,
+    "test_acc_hi": 0.850026,
+    "test_acc_lo": 0.79358,
+    "test_acc_masked": 0.818,
+    "test_acc_masked_hi": 0.846346,
+    "test_acc_masked_lo": 0.787584,
+    "train_loss": 0.216528,
+    "val_acc": 0.8005
+   },
+   "tags": {
+    "congress": "117",
+    "cu_estimate": "0.69",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-117-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "c5abdd278ad44c1c934049ad855af82a",
+   "name": "congress-118-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T23:09:02+00:00",
+   "end": "2026-11-05T23:19:49+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179272,
+    "minutes": 10.197276,
+    "test_acc": 0.7815,
+    "test_acc_hi": 0.82191,
+    "test_acc_lo": 0.735014,
+    "test_acc_masked": 0.772,
+    "test_acc_masked_hi": 0.811781,
+    "test_acc_masked_lo": 0.723694,
+    "train_loss": 0.213667,
+    "val_acc": 0.8425
+   },
+   "tags": {
+    "congress": "118",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-118-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "c67894c1bcdf4c5f9b122a2f5e430520",
+   "name": "congress-115-modernbert-s1",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T23:19:51+00:00",
+   "end": "2026-11-05T23:30:42+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 1,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180379,
+    "minutes": 10.240449,
+    "test_acc": 0.8095,
+    "test_acc_hi": 0.833822,
+    "test_acc_lo": 0.782851,
+    "test_acc_masked": 0.81,
+    "test_acc_masked_hi": 0.833839,
+    "test_acc_masked_lo": 0.783505,
+    "train_loss": 0.253091,
+    "val_acc": 0.798
+   },
+   "tags": {
+    "congress": "115",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-115-modernbert-s1",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "1",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "89de3ba7330a4cf8929fb4b9c4aca29a",
+   "name": "congress-115-modernbert-s2",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T23:30:44+00:00",
+   "end": "2026-11-05T23:41:35+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 2,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.180411,
+    "minutes": 10.243628,
+    "test_acc": 0.8155,
+    "test_acc_hi": 0.845171,
+    "test_acc_lo": 0.787086,
+    "test_acc_masked": 0.8145,
+    "test_acc_masked_hi": 0.843284,
+    "test_acc_masked_lo": 0.786349,
+    "train_loss": 0.283018,
+    "val_acc": 0.7975
+   },
+   "tags": {
+    "congress": "115",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-115-modernbert-s2",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "2",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "184f73ceebb8434dbbe66d56db166b1a",
+   "name": "congress-119-modernbert-s1",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T23:41:41+00:00",
+   "end": "2026-11-05T23:52:29+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 1,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179262,
+    "minutes": 10.205337,
+    "test_acc": 0.846,
+    "test_acc_hi": 0.876436,
+    "test_acc_lo": 0.81669,
+    "test_acc_masked": 0.8385,
+    "test_acc_masked_hi": 0.871006,
+    "test_acc_masked_lo": 0.807658,
+    "train_loss": 0.189546,
+    "val_acc": 0.853
+   },
+   "tags": {
+    "congress": "119",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-119-modernbert-s1",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "1",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "dbe97a80d7e141da8c3b39d1a8e1dee7",
+   "name": "congress-119-modernbert-s2",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-05T23:52:30+00:00",
+   "end": "2026-11-06T00:03:17+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 2,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179164,
+    "minutes": 10.196141,
+    "test_acc": 0.8465,
+    "test_acc_hi": 0.875134,
+    "test_acc_lo": 0.816718,
+    "test_acc_masked": 0.8345,
+    "test_acc_masked_hi": 0.862956,
+    "test_acc_masked_lo": 0.804516,
+    "train_loss": 0.198713,
+    "val_acc": 0.8395
+   },
+   "tags": {
+    "congress": "119",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-119-modernbert-s2",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "2",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "7a09556210b946448f9a009561bc3c50",
+   "name": "congress-119-modernbert-s20261105",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-06T00:03:19+00:00",
+   "end": "2026-11-06T00:14:06+00:00",
+   "params": {
+    "batch_size": 16,
+    "epochs": 2,
+    "lr": 3.7e-05,
+    "max_len": 512,
+    "seed": 20261105,
+    "warmup": 0.098475,
+    "weight_decay": 0.047088
+   },
+   "metrics": {
+    "hours": 0.179198,
+    "minutes": 10.194827,
+    "test_acc": 0.8455,
+    "test_acc_hi": 0.877111,
+    "test_acc_lo": 0.81329,
+    "test_acc_masked": 0.8325,
+    "test_acc_masked_hi": 0.866495,
+    "test_acc_masked_lo": 0.79825,
+    "train_loss": 0.187169,
+    "val_acc": 0.8415
+   },
+   "tags": {
+    "congress": "119",
+    "cu_estimate": "0.7",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "congress-119-modernbert-s20261105",
+    "model": "modernbert",
+    "runtime": "colab-L4",
+    "seed": "20261105",
+    "source": "govinfo",
+    "stage": "final"
+   }
+  },
+  {
+   "id": "71a6b4e28e804a7383b427bacb8f589d",
+   "name": "hypotheses-h1-h3",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-06T02:29:54+00:00",
+   "end": "2026-11-06T02:29:56+00:00",
+   "params": {},
+   "metrics": {
+    "h1_rho_b": 0.938235,
+    "h1_rho_t": 0.858824,
+    "h2_slope_t": 0.002217,
+    "h2_slope_t_hi": 0.011255,
+    "h2_slope_t_lo": -0.00684,
+    "h3_mean_diff": 0.013417,
+    "h3_mean_diff_hi": 0.019097,
+    "h3_mean_diff_lo": 0.00698,
+    "h3_n_t_higher": 13.0,
+    "s1_mean_drop": 0.004458
+   },
+   "tags": {
+    "cu_estimate": "0",
+    "git_commit": "a6e9829",
+    "mlflow.runName": "hypotheses-h1-h3",
+    "mlflow.source.git.commit": "a6e982977ec3563ebaabbfa73d6efaa9d7b99b29",
+    "model": "modernbert+tfidf",
+    "runtime": "laptop-cpu",
+    "stage": "analysis"
+   }
+  },
+  {
+   "id": "5779bf1533b34dcdb914ac547d2e1a44",
+   "name": "embeddings-bge-base",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-06T15:01:47+00:00",
+   "end": "2026-11-06T15:01:56+00:00",
+   "params": {},
+   "metrics": {
+    "hours": 0.667062,
+    "member_congresses": 8215.0,
+    "turns": 821674.0
+   },
+   "tags": {
+    "cu_estimate": "1.29",
+    "git_commit": "7835c26",
+    "mlflow.runName": "embeddings-bge-base",
+    "model": "bge-base-en-v1.5",
+    "runtime": "colab-L4",
+    "stage": "embeddings"
+   }
+  },
+  {
+   "id": "bb5e542208c44d8fb3d1077b6550fb05",
+   "name": "h5-nominate-ridge",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-06T16:18:06+00:00",
+   "end": "2026-11-06T16:18:08+00:00",
+   "params": {},
+   "metrics": {
+    "r_D": 0.455032,
+    "r_D_hi": 0.501863,
+    "r_D_lo": 0.406312,
+    "r_R": 0.48464,
+    "r_R_hi": 0.527501,
+    "r_R_lo": 0.441161,
+    "r_all": 0.762704,
+    "r_all_hi": 0.77632,
+    "r_all_lo": 0.748322
+   },
+   "tags": {
+    "cu_estimate": "0",
+    "git_commit": "7835c26",
+    "mlflow.runName": "h5-nominate-ridge",
+    "mlflow.source.git.commit": "7835c26fedbe181a0f28ff34175fb2161a70f333",
+    "model": "bge-base+ridge",
+    "runtime": "laptop-cpu",
+    "stage": "h5"
+   }
+  },
+  {
+   "id": "fce93707e97444b3804846eb50084707",
+   "name": "h5-nominate-ridge",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-06T17:11:32+00:00",
+   "end": "2026-11-06T17:11:34+00:00",
+   "params": {},
+   "metrics": {
+    "r_D": 0.455032,
+    "r_D_hi": 0.501863,
+    "r_D_lo": 0.406312,
+    "r_R": 0.48464,
+    "r_R_hi": 0.527501,
+    "r_R_lo": 0.441161,
+    "r_all": 0.762704,
+    "r_all_hi": 0.77632,
+    "r_all_lo": 0.748322
+   },
+   "tags": {
+    "cu_estimate": "0",
+    "git_commit": "7835c26",
+    "mlflow.runName": "h5-nominate-ridge",
+    "mlflow.source.git.commit": "7835c26fedbe181a0f28ff34175fb2161a70f333",
+    "model": "bge-base+ridge",
+    "runtime": "laptop-cpu",
+    "stage": "h5"
+   }
+  },
+  {
+   "id": "3a923fb0557b4eac948b68e6af663b4c",
+   "name": "h5-alpha-check",
+   "parent": null,
+   "status": "FINISHED",
+   "start": "2026-11-06T17:12:15+00:00",
+   "end": "2026-11-06T17:12:16+00:00",
+   "params": {},
+   "metrics": {
+    "r_D": 0.440098,
+    "r_R": 0.48782,
+    "r_all": 0.78266
+   },
+   "tags": {
+    "cu_estimate": "0",
+    "exploratory": "true",
+    "git_commit": "7835c26",
+    "mlflow.runName": "h5-alpha-check",
+    "mlflow.source.git.commit": "7835c26fedbe181a0f28ff34175fb2161a70f333",
+    "model": "bge-base+ridge",
+    "runtime": "laptop-cpu",
+    "stage": "h5"
+   }
+  }
+ ]
+}
