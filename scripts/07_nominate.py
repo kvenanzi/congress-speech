@@ -23,7 +23,7 @@ from sklearn.model_selection import GroupKFold, GridSearchCV
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from congress_speech import stats, tracking  # noqa: E402
+from congress_speech import members, stats, tracking  # noqa: E402
 
 DATASET = "kvenanzi/congressional-record-speeches-1995-2026"
 ALPHAS = [0.1, 1, 10, 100]
@@ -71,10 +71,16 @@ def main():
     res["verdict_all_gt_0.85"] = res["r_all"]["r"] > 0.85
     res["verdict_D_lt_0.5"] = res["r_D"]["r"] < 0.5
     res["verdict_R_lt_0.5"] = res["r_R"]["r"] < 0.5
+    vv = members.load_voteview(ROOT / "data/raw/voteview/HSall_members.csv")
+    names = (vv[["bioguide_id", "congress", "chamber", "bioname", "state_abbrev"]]
+             .drop_duplicates(["bioguide_id", "congress", "chamber"])
+             .rename(columns={"bioguide_id": "bioguide", "bioname": "name", "state_abbrev": "state"}))
     top = {}
     for party in ("D", "R"):
         sub = df[df.party == party].assign(abs_resid=lambda d: d.resid.abs()).nlargest(10, "abs_resid")
-        top[party] = sub[["bioguide", "congress", "chamber", "nominate_dim1", "pred", "resid", "n_turns"]].to_dict("records")
+        sub = sub.merge(names, on=["bioguide", "congress", "chamber"], how="left")
+        top[party] = sub[["name", "state", "bioguide", "congress", "chamber", "nominate_dim1", "pred", "resid",
+                          "n_turns"]].to_dict("records")
     res["largest_residuals"] = top
 
     out = ROOT / "outputs/h5"
